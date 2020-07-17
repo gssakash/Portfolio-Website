@@ -1,0 +1,136 @@
+.about {
+	width: 100%;
+	max-height: 100vh;
+	font-size: 17px;
+}
+.about-container {
+	margin-top: 30vh;
+}
+.about-left {
+	margin-left: 50px;
+}
+
+.about-left p {
+	margin-top: 50px;
+}
+
+/* .about-right img {
+	border-radius: 50%;
+} */
+
+/* Button Styles */
+
+.workbtn a {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: flex-start;
+	padding: 15px 22.5px;
+	margin-top: 40px;
+	color: rgb(233, 29, 63);
+	border: 1px solid #ef0d33;
+	cursor: pointer;
+	font-weight: 800;
+	outline: none;
+	word-spacing: 2px;
+	border-radius: 5px;
+	margin-left: -10px;
+}
+
+.workbtn a:focus,
+.workbtn a:active {
+	outline: 0 !important;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+.workbtn a:hover,
+.workbtn a:focus {
+	background-color: #ef0d33;
+	color: rgb(235, 235, 235);
+	border: 1px solid #ef0d33;
+	text-decoration: none;
+	/* margin:0; */
+}
+
+.fa-arrow-right {
+	padding-left: 15px;
+	font-size: 18px;
+}
+
+#profilePic {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("https://source.unsplash.com/random") no-repeat;
+	margin: 0 0 10px 0;
+	margin-left: 175px;
+}
+
+/* Button Style Ends */
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+	main {
+		margin-left: 0px;
+	}
+
+	.about-left {
+		order: 2;
+	}
+	.about-right {
+		order: 1;
+	}
+
+	.about-container {
+		margin-top: 12vh;
+	}
+
+	.about-right > img {
+		margin-bottom: 50px;
+		margin-left: 2.5rem;
+	}
+
+	.about-right {
+		margin-top: -30px;
+		margin-bottom: 50px;
+		width: 400px;
+		text-align: center;
+	}
+
+	#profilePic {
+		width: 150px;
+		height: 150px;
+		margin-left: 0px;
+		margin-right: 100px;
+	}
+}
+
+@media (max-width: 450px) {
+	.about-container {
+		margin-top: 15vh;
+	}
+
+	.about-left {
+		text-align: center;
+		margin-left: 0px;
+	}
+	.about-right > img {
+		margin-left: 9px;
+		margin-top: 60px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+	}
+
+	.about-right {
+		text-align: center;
+		margin-top: -30px;
+	}
+
+	#profilePic {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+/* Media Query Ends */
