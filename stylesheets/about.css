@@ -73,6 +73,11 @@
 @media (max-width: 768px) {
 	.about {
 		overflow-x: hidden;
+		font-size: 16px;
+	}
+
+	.about-container {
+		padding-left: 0px;
 	}
 
 	main {
@@ -81,12 +86,16 @@
 	.about-left {
 		order: 2;
 	}
+
+	.about-left h2 {
+		padding-left: 90px;
+	}
 	.about-right {
 		order: 1;
 	}
 
 	.about-container {
-		margin-top: 12vh;
+		margin-top: 9vh;
 	}
 
 	.about-right > img {
@@ -104,8 +113,7 @@
 	#profilePic {
 		width: 150px;
 		height: 150px;
-		margin-left: 0px;
-		margin-right: 100px;
+		margin-left: 90px;
 	}
 }
 
@@ -123,6 +131,11 @@
 		text-align: center;
 		margin-left: 0px;
 	}
+
+	.about-left h2 {
+		padding-left: 0px;
+	}
+
 	.about-right > img {
 		margin-left: 9px;
 		margin-top: 60px;
