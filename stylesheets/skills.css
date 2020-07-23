@@ -266,6 +266,22 @@ body {
 	align-items: center;
 	justify-content: space-evenly;
 	padding-bottom: 12.5vh;
+	padding-left:50px;
+}
+
+.splitter {
+	display: none;
+}
+
+.content-image-1 {
+	height: 400px;
+	width: 500px;
+	border-radius: 12.5px;
+}
+.content-image-2 {
+	height: 350px;
+	width: 500px;
+	border-radius: 12.5px;
 }
 
 .content .content-overlay {
@@ -610,6 +626,33 @@ body {
 	}
 
 	.projects h2 {
-		margin-right: 100px;
+		margin-right: 0px;
+		margin-left: 10px;
+		margin-bottom: 50px;
+	}
+
+	/* Project */
+
+	.portfolio-gallery {
+		margin-top: 0vh;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: space-evenly;
+		padding-left:0px;
+	}
+
+	.splitter {
+		display: block;
+		margin-bottom: 10vh;
+	}
+
+	.content-image-1 {
+		height: 300px;
+		width: 400px;
+	}
+	.content-image-2 {
+		height: 300px;
+		width: 400px;
 	}
 }
