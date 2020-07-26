@@ -7,7 +7,7 @@
 /* Skills */
 
 body {
-	background: #121212;
+	background: black;
 	color: white;
 	width: 100%;
 	height: 100%;
@@ -266,7 +266,7 @@ body {
 	align-items: center;
 	justify-content: space-evenly;
 	padding-bottom: 12.5vh;
-	padding-left:50px;
+	padding-left: 50px;
 }
 
 .splitter {
@@ -639,7 +639,7 @@ body {
 		align-items: center;
 		flex-direction: column;
 		justify-content: space-evenly;
-		padding-left:0px;
+		padding-left: 0px;
 	}
 
 	.splitter {
@@ -656,4 +656,3 @@ body {
 		width: 400px;
 	}
 }
-
