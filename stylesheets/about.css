@@ -12,6 +12,7 @@
 
 .about-left p {
 	margin-top: 50px;
+	padding-right: 30px;
 }
 
 /* .about-right img {
@@ -90,6 +91,7 @@
 	.about-left h2 {
 		padding-left: 90px;
 	}
+
 	.about-right {
 		order: 1;
 	}
@@ -142,6 +144,10 @@
 
 	.about-left h2 {
 		padding-left: 0px;
+	}
+
+	.about-left p {
+		padding-right: 0px;
 	}
 
 	.about-right > img {
