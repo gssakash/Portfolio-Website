@@ -8,7 +8,6 @@ body {
 	overflow-x: hidden;
 }
 
-
 /* Home */
 #home {
 	font-size: 27px;
@@ -23,6 +22,12 @@ body {
 
 #home p {
 	margin-top: 25px;
+}
+
+.name {
+	cursor: pointer;
+	color: #ef0d33;
+	border-bottom: 3px solid #ef0d33;
 }
 
 /* Contact Button Styles */
