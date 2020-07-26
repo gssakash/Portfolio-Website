@@ -170,6 +170,12 @@ iframe {
 	}
 }
 
+@media (max-width: 500px) {
+	.contact-form {
+		margin-bottom: 150px;
+	}
+}
+
 @media (max-width: 400px) {
 	.map-section {
 		display: none;
