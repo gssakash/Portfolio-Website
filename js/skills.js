@@ -1,13 +1,13 @@
 kindChart($('.chart.skills'), {
 	web: '#EEEEEE',
-	labels: [ 'Javascript', 'Java', 'C++', 'CSS', 'Firebase', 'React.js', 'Node.js', 'Express' ],
+	labels: [ 'Javascript', 'Java', 'C++', 'CSS', 'Firebase', 'React.js', 'Node.js', 'Express.js','Python' ],
 	datasets: [
 		// 0 being farthest back, 1 being closest
 		{
 			label: 'Current Skill Level',
 			fillColor: '#ef0d33',
 			strokeColor: '#ef0d33',
-			data: [ 92, 100, 100, 100, 70, 80, 80, 80 ]
+			data: [ 92, 100, 100, 100, 70, 80, 80, 80,100 ]
 		}
 	]
 });
