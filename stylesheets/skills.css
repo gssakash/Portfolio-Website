@@ -238,6 +238,10 @@ body {
 	z-index: 15;
 }
 
+.desc {
+	border-radius: 5px;
+}
+
 .direction-l .desc,
 .direction-r .desc {
 	position: relative;
