@@ -65,6 +65,27 @@
 	render();
 })();
 
+
+
+
+/* Preloader */
+
+const loader = document.querySelector('#loader');
+const main = document.querySelector('.main-section');
+// const main = document.getElementsByName('body')[0];
+function init() {
+  setTimeout(() => {
+    loader.style.opacity = 0;
+    loader.style.display = 'none';
+	loader.style.cursor = 'none';
+
+	main.style.display = 'block';
+    setTimeout(() => (main.style.opacity = 1), 50);
+  }, 1000);
+}
+
+init();
+
 /* ScrollReveal Animation */
 window.sr = ScrollReveal();
-sr.reveal('main', { delay: 700 });
+sr.reveal('main', { delay: 1300 });

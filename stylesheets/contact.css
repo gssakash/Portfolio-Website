@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+body {
+	background-color: black;
+}
+
 /* Contact Form */
 .contact {
 	margin-left: 7.5rem;
@@ -114,6 +118,13 @@ textarea.contact-form-text {
 }
 
 @media (max-width: 400px) {
+	body {
+		overflow: scroll;
+	}
+	.contact {
+		height: 100%;
+		padding-bottom: 100px;
+	}
 	.padding-setter {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -165,13 +176,6 @@ iframe {
 	}
 
 	iframe {
-		display: none;
-		height: 0px;
-	}
-}
-
-@media (max-width: 400px) {
-	.map-section {
 		display: none;
 		height: 100%;
 	}
