@@ -278,7 +278,7 @@ body {
 }
 
 .content-image-1 {
-	height: 400px;
+	height: 350px;
 	width: 500px;
 	border-radius: 12.5px;
 }
@@ -658,5 +658,20 @@ body {
 	.content-image-2 {
 		height: 300px;
 		width: 400px;
+	}
+}
+
+@media (max-width: 400px) {
+	.projects {
+		padding-bottom: 45px;
+	}
+	.content-image-1 {
+		height: 250px;
+		width: 300px;
+	}
+
+	.content-image-2 {
+		height: 250px;
+		width: 300px;
 	}
 }
