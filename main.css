@@ -20,6 +20,8 @@ body {
 	position: relative;
 }
 
+
+
 #home p {
 	margin-top: 25px;
 }
@@ -67,6 +69,10 @@ body {
 .fa-arrow-right {
 	padding-left: 15px;
 	font-size: 18px;
+}
+
+.fa-envelope-square{
+	font-size:27px;
 }
 
 /* Button Style Ends */
